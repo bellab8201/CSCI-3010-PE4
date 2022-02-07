@@ -10,9 +10,29 @@ void CreateBoard(int board[3][3])
         }
     }
 }
+// should prompt the user for a location to play, then return that coordinate
 
+int GetPlayerChoice(int board[3][3])
+{
+    int row, col;
+    std::cout << "Enter a row: ";
+    std::cin >> row;
+    std::cout << "Enter a column: ";
+    std::cin >> col;
+    if (board[row][col] == 0)
+    {
+        int res = board[row][col];
+        return res;
+    }
+    else
+    {
+        std::cout << "That location is already taken.\n";
+        GetPlayerChoice(board);
+    }
+}
 
-void DisplayBoard(int board[3][3]){
+void DisplayBoard(int board[3][3])
+{
 
     for (int i = 0; i < 3; i++)
     {
@@ -21,7 +41,7 @@ void DisplayBoard(int board[3][3]){
             std::cout << board[i][j] << " ";
         }
 
-  std::cout << std::endl;
+        std::cout << std::endl;
     }
 }
 int main()
