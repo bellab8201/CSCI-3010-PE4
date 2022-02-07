@@ -1,0 +1,58 @@
+0 0 0
+0 0 0
+0 0 0
+player 1:
+Enter a row: 0
+Enter a column: 0
+1 0 0
+0 0 0
+0 0 0
+player 2:
+Enter a row: 0
+Enter a column: 1
+1 2 0
+0 0 0
+0 0 0
+player 1:
+Enter a row: 0
+Enter a column: 2
+1 2 1
+0 0 0
+0 0 0
+player 2:
+Enter a row: 1
+Enter a column: 0
+1 2 1
+2 0 0
+0 0 0
+player 1:
+Enter a row: 1
+Enter a column: 1
+1 2 1
+2 1 0
+0 0 0
+player 2:
+Enter a row: 1
+Enter a column: 2
+1 2 1
+2 1 2
+0 0 0
+player 1:
+Enter a row: 2
+Enter a column: 1
+1 2 1
+2 1 2
+0 1 0
+player 2:
+Enter a row: 2
+Enter a column: 0
+1 2 1
+2 1 2
+2 1 0
+player 1:
+Enter a row: 2
+Enter a column: 2
+1 2 1
+2 1 2
+2 1 1
+Game Over
