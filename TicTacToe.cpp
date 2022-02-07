@@ -44,6 +44,11 @@ void DisplayBoard(int board[3][3])
         std::cout << std::endl;
     }
 }
+
+void PlaceMarker(int arr[2], int marker, int board[3][3]){
+    board[arr[0]][arr[1]] = marker;
+}
+
 int main()
 {
     int board[3][3];
