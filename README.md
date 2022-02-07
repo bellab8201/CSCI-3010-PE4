@@ -1,6 +1,8 @@
 # CSCI-3010-PE4
 Repo for PE4
+
 Person 1: Bella Barbieri
+
 Person 2: John Korhel
 
 TicTacToe Game
